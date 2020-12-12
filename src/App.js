@@ -1,24 +1,30 @@
-import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Home from "./components/Home";
-import About from "./components/About";
-import SinglePost from "./components/SinglePost";
-import Post from "./components/Post";
-import Project from "./components/Project";
-import NavBar from "./components/NavBar";
+import React from 'react';
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import Navbar from './Components/NavBar';
+import AllPosts from './Components/AllPosts';
+import About from './Components/About'
+import SinglePost from './Components/SinglePost';
+import Home from './Components/Home'
+import Projects from './Components/Projects'
+
+
+import './App.css';
 
 function App() {
   return (
     <BrowserRouter>
-    <NavBar />
-      <Switch>
-        <Route component={Home} path='/' exact />
-        <Route component={About} path='/about' />
-        <Route component={SinglePost} path='/post/:slug' />
-        <Route component={Post} path='/post' />
-        <Route component={Project} path='/project' />
-      </Switch>
+      <div>
+      <Navbar />
+          <Switch>
+            <Route component={Home} path="/" exact />
+            <Route component={About} path="/about" />
+            <Route component={SinglePost} path="/post/:slug" />
+            <Route component={AllPosts} path="/post" />
+            <Route component={Projects} path="/project" />
+          </Switch>
+      </div>
     </BrowserRouter>
-  )
+  );
 }
 
 export default App;
