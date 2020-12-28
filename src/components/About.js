@@ -50,17 +50,3 @@ export default function About() {
     )
 }
 
-{/* <main className="relative">
-<img src={background} alt="me" className="absolute w-full"/>
-<div className="p-10 lg:pt-48 container mx-auto relative">
-    <section className="bg-gray-200 rounded-lg shadow-2xl lg:flex p-20">
-        <img src={urlFor(author.authorImage).url()} className="rounded w-32 h-32 lg:w-64 lg:h-64 mr-8 my-auto" alt="me"/>
-        <div className="text-lg flex flex-col justify-center">
-            
-        <div className="prose lg:prose-xl text-black">
-            <BlockContent blocks={author.bio} projectId="41nsk0at" dataset="production"/>
-        </div>
-        </div>
-    </section>
-</div>
-</main> */}
