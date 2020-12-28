@@ -46,13 +46,13 @@ export default function OnePost() {
               <h2 className="font text-3xl lg:text-6xl mb-4">
                 {postData.title}
               </h2>
-              <div className="flex justify-center text-gray-800">
+              <div className="flex justify-center text-white">
                 <img
                   src={urlFor(postData.authorImage).url()}
                   className="w-10 h-10 rounded-full"
-                  alt="Author is Kap"
+                  alt="Author is Ken"
                 />
-                <h4 className="font flex items-center pl-2 text-2xl">
+                <h4 className="font flex items-center text-center pl-2 text-2xl">
                   {postData.name}
                 </h4>
               </div>

@@ -6,6 +6,7 @@ import About from './Components/About'
 import SinglePost from './Components/SinglePost';
 import Home from './Components/Home'
 import Projects from './Components/Projects'
+import Quotes from './Components/Quotes'
 
 
 import './App.css';
@@ -21,6 +22,7 @@ function App() {
             <Route component={SinglePost} path="/post/:slug" />
             <Route component={AllPosts} path="/post" />
             <Route component={Projects} path="/project" />
+            <Route component={Quotes} path="/quotes" />
           </Switch>
       </div>
     </BrowserRouter>

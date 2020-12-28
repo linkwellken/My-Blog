@@ -3,12 +3,15 @@ import image from "../BWCA.jpg";
 
 export default function Home() {
     return (
-        <main>
+        <div>
             <img src={image} alt="BWCA" className="absolute object-cover w-full h-full" />
-            <section className="relative flex justify-center min-h-screen pt-5 lg:pt-64 px-8">
-                <h1 style={{fontSize: '5em', marginBottom: '100px'}} className="text-grey leading-none lg:leading-snug home-name">Welcome To Ken's Blog!</h1>
-            </section>
-        </main>
+            <main className=" min-h-screen p-20">
+                <section className="container mx-auto pt-10">
+                    <h1 className="text-5xl relative flex text-center justify-center">Welcome To My Blog!</h1>
+                </section>
+            </main>
+        </div>
     
         )
 }
+
