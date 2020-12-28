@@ -7,10 +7,10 @@ export default function Navbar() {
         <header className="bg-gray-800">
             <div className="container mx-auto flex justify-between" >
                 <nav className="flex">
-                    <NavLink to='/' activeClassName="text-white" exact className="inflex-flex items-center py-5 px-3 mr-4 text-white hover:text-orange-800 text-4xl  ">
+                    <NavLink to='/' activeClassName="text-white" exact className="inline-flex items-center py-5 px-3 mr-4 text-white hover:text-orange-800 text-4xl  ">
                         Home
                     </NavLink>
-                    <NavLink to='/post' activeClassName="text-white" className="inline-flex items-center py-3 px-3 my-6 rounded text-white hover:text-orange-800">
+                    <NavLink to='/post' activeClassName="text-white" className="inline-flex flex py-3 px-3 my-6 rounded text-white hover:text-orange-800">
                         Blog Posts
                     </NavLink>
                     <NavLink to='/project' className="inline-flex items-center py-3 px-3 my-6 rounded text-white hover:text-orange-800">
