@@ -5,8 +5,8 @@ import {SocialIcon} from 'react-social-icons'
 export default function Navbar() {
     return (
         <header className="navbar-dark bg-dark " >
-            <div className="container flex text-center justify-between" >
-                <nav className="flex justify-center ">
+            <div className="container flex text-center pl-0 justify-between" >
+                <nav className="flex justify-center  ">
                     <NavLink to='/' activeClassName="text-white" exact className="inline-flex items-center py-3 px-1 my-6 mt-8 lg:text-xl lg:mr-3 text-white    ">
                         Home
                     </NavLink>
