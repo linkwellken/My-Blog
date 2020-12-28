@@ -36,8 +36,8 @@ export default function AllPosts() {
               <Link to={"/post/" + post.slug.current} key={post.slug.current}>
                 <span className="block h-64 relative rounded shadow leading-snug bg-white border-l-8 border-black-400" key={index}>
                   <img src={post.mainImage.asset.url} alt={post.mainImage.alt} className="w-full h-full rounded-r object-cover absolute"/>
-                  <span className="block relative h-full flex justify-end items-end pr-2 pb-2">
-                    <h3 className="text-white text-lg text-center font-blog px-3 py-4 bg-gray-700 text-white bg-opacity-70 rounded">
+                  <span className="block relative h-full flex justify-end items-end p-2">
+                    <h3 className="text-white text-lg text-center font-blog mx-auto p-1 bg-gray-800 text-white bg-opacity-70 rounded">
                       {post.title}
                     </h3>
                   </span>
