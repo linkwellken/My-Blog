@@ -29,7 +29,7 @@ export default function AllPosts() {
       <main className="bg-white-100 mn-h-screen p-12">
         <section className="container mx-auto">
           <h1 className="text-5xl flex justify-center">Ken's Blog</h1>
-          <h2 className="text-lg text-gray-600 flex text-center justify-center mt-2 mb-12">Blockchain, Smart Contracts, Health, and Stoicism</h2>
+          <h2 className="text-lg text-gray-600 flex text-center justify-center mt-2 mb-12">Blockchain, Decentralized Apps, Mind, Body, and Spirit</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {allPostsData && allPostsData.map((post, index) => (
             <article>

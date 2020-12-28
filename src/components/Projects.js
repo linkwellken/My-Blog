@@ -20,7 +20,7 @@ export default function Projects() {
     return (
         <main className="min-h-screen p-12">
             <section className="container mx-auto">
-                <h1 className="text-5xl flex justify-center">Ken's Projects</h1>
+                <h1 className="text-4xl flex justify-center">Ken's Projects</h1>
                 <h2 className="text-lg text-center text-black flex justify-center mb-12 mt-2">Check out the project links below if you'd like to learn more.</h2>
                 <section className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {projectData && projectData.map((project, index) => (

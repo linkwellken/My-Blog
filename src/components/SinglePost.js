@@ -65,7 +65,7 @@ export default function OnePost() {
             style={{ height: "400px" }}
           />
         </div>
-        <div className="p2 lg:px-35  lg:py-30 prose lg:prose-xl max-w-full">
+        <div className="p2 lg:px-35 pb-20  lg:py-30 prose lg:prose-xl max-w-full">
           <BlockContent
             blocks={postData.body}
             projectId="41nsk0at"
